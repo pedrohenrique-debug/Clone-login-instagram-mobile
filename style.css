@@ -50,7 +50,7 @@ main {
     height: 302px;
 }
 
-.formulario button {
+.facebook {
     background-color: #0095F6;
     border-radius: 4px;
     border: none;
@@ -62,6 +62,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -122,6 +123,15 @@ input {
 #entrar {
     background-color: #B2DFFC;
     height: 30px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cadastre-se {

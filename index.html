@@ -20,14 +20,14 @@
             <div class="formulario">
                 <button class="facebook"> <img src="img/facebook.png" class="facebook-icon" alt=""> Continuar com o Facebook</button> 
                 <div class="separador">Ou</div>   
-                <input type="text" placeholder="Telefone, nome de usuário ou email">
-                <input type="password" placeholder="Senha">
+                <input type="text" placeholder="Telefone, nome de usuário ou email" id="email" oninput="verificarEmail()">
+                <input type="password" placeholder="Senha" id="senha" oninput="verificarSenha()">
 
                 <div class="esqueceu-senha">
                     <a href="#">Esqueceu a senha?</a>
                 </div>
 
-                <button id="entrar">Entrar</button>
+                <button id="entrar" class="entrar">Entrar</button>
 
                 <div class="cadastre-se">
                     <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
@@ -75,5 +75,6 @@
 
         </form>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
